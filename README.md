@@ -12,7 +12,7 @@ This repository contains a Shiny app designed to provide a comprehensive descrip
 
 ## Dataset
 
-The dataset used in this Shiny app contains information on patients with various covariates captured during the baseline period. The dataset includes the following variables:
+The dataset used in this Shiny app is **simulated data** created for the purpose of demonstrating the functionality of the dashboard. It does not represent real patient data. The dataset includes the following variables:
 
 - **Age**: Age of the patient.
 - **Race**: Race of the patient (Race1, Race2, Race3, Race4).
@@ -41,7 +41,7 @@ The dataset used in this Shiny app contains information on patients with various
 ## Repository Structure
 
 - **app.R**: The main Shiny app script containing the UI and server logic.
-- **data_Alireza.csv**: The dataset used in the Shiny app.
+- **data.csv**: The simulated dataset used in the Shiny app.
 - **README.md**: This file, providing an overview of the repository and instructions on how to use the app.
 
 ## Running the App Locally
@@ -52,3 +52,26 @@ To run the Shiny app locally on your machine, follow these steps:
    ```bash
    git clone https://github.com/your-username/your-repo-name.git
    cd your-repo-name
+
+2. **Install Required Packages**:
+   ```R
+    install.packages(c("shiny", "dplyr", "DT", "ggplot2", "gridExtra"))
+
+3. **Run the App**:
+    ```R
+    shiny::runApp("app.R")
+
+## Contributing
+
+Contributions are welcome! If you have any suggestions or find any issues, please open an issue or submit a pull request.
+
+## License
+
+The code in this repository is licensed under the MIT License. However, the simulated dataset (data.csv) is provided for demonstration purposes only and is not subject to the same license. The dataset is freely available for use in exploring the functionality of the dashboard but should not be used for any other purpose without modification.
+
+## Contact
+For any questions or feedback, please contact [me](mailto:ghorbanialireza@outlook.com).
+
+Thank you for using the Cohort Description Shiny App! I hope it provides valuable insights into the functionality of the dashboard. Note that the data is simulated and intended for demonstration purposes only.
+
+Let me know if you need further adjustments!
