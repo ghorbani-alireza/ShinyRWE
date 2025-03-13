@@ -11,7 +11,7 @@ library(ggplot2)
 library(gridExtra)  
 
 # Load Data 
-df <- read.csv("data_Alireza.csv")
+df <- read.csv("data.csv")
 
 
 # summarizing data in a table
